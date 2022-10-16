@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .container { 
+                width: 600px;
+                height: 400px;
+                margin: auto;
+                display: grid;
+                grid-template-columns: 800px;
+                grid-template-rows: 200px, 400px, 200px;
+                
+            }
+            .box {
+        text-align: center;
+        color: white;
+       
+            }
+       
+      
+      .box1 {
+        background-color: lightcoral;
+      }
+      .box2 {
+        background-color: lightgreen;
+        display: grid;
+        grid-template-columns: 300px, 300px;
+        grid-template-rows: 1fr 1fr;
+      }
+      .box3 {
+        background-color: lightslategrey;
+      }
+      
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box box1">BOX1</div>
+            <div class="box box2">
+                <div class="box 21"> box 21</div>
+                <div class="box 22">box 22</div>
+            </div>
+            <div class="box box3">BOX3</div>
+            
+        </div>
+    </body>
+</html>

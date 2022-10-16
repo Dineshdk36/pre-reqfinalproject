@@ -1,0 +1,91 @@
+body {
+    margin: 0%;
+    background: linear-gradient(180deg, white,rgb(235, 235, 134));
+}
+#header {
+    background-color: rgb(5, 5, 5);
+    height: 70px;
+}
+
+.dk 
+ {  width: 40%;
+    float: left;
+    text-align: center;
+    line-height: 45px;
+}
+
+
+.kk {
+    width: 60%;
+    text-align: center;
+    float: right;
+    line-height: 80px;
+    text-decoration: none;    
+    /* margin-right: 20px;/ */
+}
+
+a{
+    color: azure;
+    margin-right: 7%;
+    text-decoration: none;
+}
+
+h1 {
+    color: azure;
+}
+.junk {
+    background: linear-gradient(90deg,yellow,black);
+    text-align: center;
+    color: azure;
+    width: 400px;
+    margin: auto;
+    border-radius: 40px;
+    height: 30px;
+}
+#pizza {
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+table {
+    width: 100%;
+}
+img{
+    border-radius: 50px;
+}
+#frenchfries{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+h3{
+    /* background: linear-gradient(90deg,yellow,gray);
+    text-align: center;
+    color: azure;
+    width: 500px;
+    margin: auto;
+    border-radius: 40px;
+    height: 30px; */
+} 
+#bur{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+/* 4{    background: linear-gradient(90deg,yellow,gray);
+    text-align: center;
+    color: azure;
+    width: 400px;
+    margin: auto;
+    border-radius: 40px;h
+    height: 30px; */
+
+#footer{
+    color: rgb(15, 15, 15);
+    background: linear-gradient(100deg,yellow,gray);
+    padding: 60px;
+    text-align: center;
+}
+#kk {
+    margin-right: 15px;
+}
+.cc {
+    text-align: center;
+}
